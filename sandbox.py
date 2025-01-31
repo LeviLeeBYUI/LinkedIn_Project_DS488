@@ -8,7 +8,7 @@ headers = {'Authorization': 'Bearer ' + api_key}
 students_api_endpoint = 'https://nubela.co/proxycurl/api/linkedin/school/students/'
 students_params = {
     'linkedin_school_url': 'https://www.linkedin.com/school/byu-idaho/', 
-    'page_size': '1',
+    'page_size': '2',
     'student_status': 'current',
     'sort_by': 'recently-matriculated',    
 }
